@@ -14,7 +14,7 @@ class Graph(object):
         self.next(append(fin[v]))
         self.fin[v]=self.nEdge
         self.nEdge=self.nEdge+1
-
+        self.test=""
     def __init__(self,source,sink,n):
         self.nEdge=0
         self.to=[]
@@ -75,6 +75,7 @@ class Graph(object):
                 else:
                     break
         return ret
+
 
 
 
